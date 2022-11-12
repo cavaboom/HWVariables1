@@ -58,12 +58,12 @@ public class Main {
         System.out.println("Остаток от деления " + differenceWeight2);
         // Задача 8
         System.out.println("Задача 8");
-        var totalTime = 640;
-        var workTime = 8;
-        var workers = totalTime / workTime;
+        var workTime = 640;
+        var hoursPerDay = 8;
+        var workers = workTime / hoursPerDay;
         System.out.println("Всего работников в компании - " + workers);
         var newWorkers = workers + 94;
-        var newTotalTime = newWorkers * 8;
-        System.out.println("Если в компании работает " + newWorkers + " человека, то всего " + newTotalTime + " часов работы может быть поделено между сотрудниками ");
+        var newWorkTime = newWorkers * 8;
+        System.out.println("Если в компании работает " + newWorkers + " человека, то всего " + newWorkTime + " часов работы может быть поделено между сотрудниками ");
     }
 }
